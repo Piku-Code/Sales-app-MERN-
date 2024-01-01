@@ -1,0 +1,34 @@
+// MongoClient.connect(url)
+//   .then((client) => {
+//     console.log("DB Connected!");
+//     const db = client.db(); // Get the database from the client
+//     app.locals.db = db; // Save the database connection in app.locals for later use
+//   })
+//   .catch((err) => {
+//     console.error("Error connecting to the database:", err);
+//   });
+
+
+
+
+
+
+
+
+//   app.post("/add", (req, res) => {
+//     console.log("Received POST request");
+//     let saleData = req.body;
+//     const db = req.app.locals.db;
+//     console.log("Attempting to insert data into the database");
+//     db.collection("myDATA")
+//       .insertOne(saleData)  
+//       .then((result) => {
+//         console.log("Data inserted successfully");
+//         res.status(201).json(result);
+//       })
+//       .catch((error) => {
+//         console.error("Error inserting data:", error);
+//         res.status(500).json(error);
+//       });
+//   });
+  

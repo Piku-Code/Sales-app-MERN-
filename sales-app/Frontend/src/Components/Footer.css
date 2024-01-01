@@ -1,0 +1,32 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #3059df;
+    color: #fff;
+    padding: 20px 0;
+   
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    background-color: #7d8fa0;
+  }
+  
+  h5 {
+    color: #f0f4f8;
+  }
+  
+  .social-icons {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .social-icons i {
+    margin-right: 10px;
+  }
+
+
+  
+  /* Add more styling as needed */
+  
